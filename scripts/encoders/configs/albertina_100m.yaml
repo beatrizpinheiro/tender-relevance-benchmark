@@ -1,0 +1,9 @@
+model_name: albertina_100m
+checkpoint: PORTULAN/albertina-100m-portuguese-ptbr-encoder
+max_length: 512
+micro_batch_size: 4
+lr_grid: [1.0e-5, 2.0e-5, 3.0e-5]
+# Plain `deberta` (not `deberta-v2` like mDeBERTa) crashes in bf16: transformers'
+# attention mask fill overflows ("value cannot be converted to type c10::BFloat16
+# without overflow"). 100M params fit fine in fp32 on a 6 GB GPU.
+dtype: fp32

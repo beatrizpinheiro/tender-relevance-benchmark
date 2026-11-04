@@ -1,0 +1,6 @@
+model_name: e5_large
+checkpoint: intfloat/multilingual-e5-large
+max_length: 512
+precision: fp16
+pooling: mean
+prefixo: "query: "

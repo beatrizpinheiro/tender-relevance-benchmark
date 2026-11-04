@@ -1,0 +1,7 @@
+model_name: mmbert_small_2048
+checkpoint: jhu-clsp/mmBERT-small
+max_length: 2048
+micro_batch_size: 1
+# Reuses the best LR found for mmbert_small_512 instead of redoing the search.
+lr_grid: null
+reuse_lr_from: mmbert_small_512

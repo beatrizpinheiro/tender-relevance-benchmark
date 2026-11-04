@@ -1,0 +1,5 @@
+model_name: norberto_base_512
+checkpoint: Itau-Unibanco/NorBERTo-base
+max_length: 512
+micro_batch_size: 4
+lr_grid: [1.0e-5, 2.0e-5, 3.0e-5]

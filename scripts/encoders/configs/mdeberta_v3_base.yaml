@@ -1,0 +1,5 @@
+model_name: mdeberta_v3_base
+checkpoint: microsoft/mdeberta-v3-base
+max_length: 512
+micro_batch_size: 2
+lr_grid: [1.0e-5, 2.0e-5]

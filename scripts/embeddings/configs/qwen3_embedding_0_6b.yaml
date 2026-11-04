@@ -1,0 +1,6 @@
+model_name: qwen3_embedding_0_6b
+checkpoint: Qwen/Qwen3-Embedding-0.6B
+max_length: 1024
+precision: bf16
+pooling: last_token
+prefixo: "Instruct: Classifique se o edital de licitação é relevante para um fornecedor de hardware de TI\nQuery: "

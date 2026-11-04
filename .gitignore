@@ -1,0 +1,25 @@
+# Raw dataset and anything derived from it that carries real tender IDs/labels
+*.csv
+/data/
+/splits/
+
+# Trained weights, metrics, tracked experiment runs
+/runs/
+/archive/
+/predictions/
+mlflow.db
+/scripts/encoders/mlruns/
+
+# Private planning/tracking docs (not for the public repo)
+CLAUDE.md
+Plano Experimental*.md
+Relatório de Experimentos*.md
+
+# Baselines not ready to be published yet
+/scripts/baselines/score_atual.py
+/scripts/baselines/heuristica_categoria.py
+
+# Python / environment
+.venv/
+__pycache__/
+*.pyc

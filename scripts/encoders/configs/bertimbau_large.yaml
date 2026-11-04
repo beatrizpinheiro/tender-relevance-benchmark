@@ -1,0 +1,5 @@
+model_name: bertimbau_large
+checkpoint: neuralmind/bert-large-portuguese-cased
+max_length: 512
+micro_batch_size: 1
+lr_grid: [1.0e-5, 2.0e-5]

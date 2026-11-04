@@ -1,0 +1,6 @@
+model_name: serafim_335m
+checkpoint: PORTULAN/serafim-335m-portuguese-pt-sentence-encoder
+max_length: 512
+precision: fp16
+pooling: mean
+prefixo: ""
